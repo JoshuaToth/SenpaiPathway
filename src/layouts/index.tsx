@@ -3,32 +3,18 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import './bootstrap.min.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
+  <div className="container">
+    <div className="row">
+      <div className="col-md-12">
+        <h1 style={{ margin: 0 }}>
+          <Link to="/">
+            Mentor Me
+          </Link>
+        </h1>
+      </div>
     </div>
   </div>
 )
@@ -44,24 +30,21 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
   public render() {
     return (
       <div>
-        <Helmet
-          title="Gatsby Default Starter"
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        />
-        <Header />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {this.props.children()}
-        </div>
+        <header className="jumbotron" role="banner">
+          <Header />
+        </header>
+        <main role="main">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                {this.props.children()}
+              </div>
+            </div>
+          </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossOrigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossOrigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossOrigin="anonymous"></script>
       </div>
     )
   }
