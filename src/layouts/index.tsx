@@ -18,7 +18,7 @@ const Header = () => (
   <div className="header container">
     <div className="row">
       <div className="col-md-12">
-        <h1>
+        <h1 className="home-link">
           <Link to="/" className="text-primary-color">
             Mentor Them
           </Link>
