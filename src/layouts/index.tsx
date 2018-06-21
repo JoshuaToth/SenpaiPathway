@@ -5,13 +5,22 @@ import Helmet from 'react-helmet'
 import './index.css'
 import './bootstrap.min.css'
 
-const Header = () => (
+const Info = () => (
   <div className="container">
+    <div className="info row text-primary-color">
+      <div className="col-md-12">
+      </div>
+    </div>
+  </div>
+)
+
+const Header = () => (
+  <div className="header container">
     <div className="row">
       <div className="col-md-12">
-        <h1 style={{ margin: 0 }}>
-          <Link to="/">
-            Mentor Me
+        <h1>
+          <Link to="/" className="text-primary-color">
+            Mentor Them
           </Link>
         </h1>
       </div>
@@ -30,13 +39,16 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
   public render() {
     return (
       <div>
-        <header className="jumbotron" role="banner">
+        <header className="dark-primary-color">
+          <Info />
+        </header>
+        <header className="default-primary-color" role="banner">
           <Header />
         </header>
         <main role="main">
           <div className="container">
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-12 ">
                 {this.props.children()}
               </div>
             </div>

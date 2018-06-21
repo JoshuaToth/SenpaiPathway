@@ -21,10 +21,10 @@ export default class extends React.Component<IndexPageProps, {}> {
     return (
       <div>
         <h1>Hi Mentors!</h1>
-        <p>
+        <p className="secondary-text-color">
           Welcome to a site that takes the guess work out of helping Mentees grow.
-        </p>
-        <p>To get started, begin with Shopping 1 below</p>
+          <br /> 
+          To get started: begin with Shopping 1 below</p>
         <ul>
           <li><Link to="/shopping/">Shopping Cart</Link></li>
           <li><Link to="/shopping2/">Shopping Cart v2: SOLID</Link></li>
