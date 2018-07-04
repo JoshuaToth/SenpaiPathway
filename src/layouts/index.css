@@ -21,3 +21,56 @@
 .home-link {
     padding-top: 35px;
 }
+
+.sidebar-close {
+    float: right;
+    padding: 8px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    top:0px;
+    z-index: 9;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    color: #fff;
+    transition: all 0.35s ease-out;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #673AB7;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
