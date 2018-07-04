@@ -9,22 +9,30 @@ const Info = (props) => (
   <div className="container">
     <div className="info row text-primary-color">
       <div className="col-md-12">
-          <i id="sidebarCollapse" className="fas fa-bars fa-lg" onClick={x => props.toggle()}>
-          </i>
+      <a target="blank" href="https://www.twitter.com/tothjoshuaj">
+        <i className="fab fa-twitter fa-5 text-primary-color link-icon"></i>
+      </a>
+      <a target="blank" href="https://github.com/JoshuaToth">
+        <i className="fab fa-github fa-5 text-primary-color link-icon"></i>
+      </a>
+          {/* <i id="sidebarCollapse" className="fas fa-bars fa-lg" onClick={x => props.toggle()}>
+          </i> */}
       </div>
     </div>
   </div>
 )
 
-const Header = () => (
+const Header = (props) => (
   <div className="header container">
     <div className="row">
+      <Info toggle={x => props.toggleSidebar()}/>
       <div className="col-md-12">
         <h1 className="home-link">
           <Link to="/" className="text-primary-color">
-            Mentor Them
+            Senpai Pathway
           </Link>
         </h1>
+        <h4 className="text-primary-color">A Practical Guide For Mentors</h4>
       </div>
     </div>
   </div>
@@ -72,12 +80,9 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
   public render() {
     return (
       <div>
-        <Sidebar toggle={x => this.toggleSidebar()}/>
-        <header className="dark-primary-color">
-          <Info toggle={x => this.toggleSidebar()}/>
-        </header>
-        <header className="default-primary-color" role="banner">
-          <Header />
+        {/* <Sidebar toggle={x => this.toggleSidebar()}/> */}
+        <header role="banner">
+          <Header toggle={x => this.toggleSidebar()} />
         </header>
         <main role="main">
           <div className="container">

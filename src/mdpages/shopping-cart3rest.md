@@ -35,3 +35,5 @@ The API can be queried to return all items along with their cost, weight and qua
 ### Extension - Sale history 
 
 A list of all previous sales can be queried, Items, quantity and cost should be included.
+
+[< Prev](../shopping2) | [Next >](../shopping3_5)

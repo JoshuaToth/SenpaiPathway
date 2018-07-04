@@ -13,3 +13,6 @@ The forsmith project is a pure CQRS project and will be good to use as an exampl
 [https://code.pageuppeople.com/diffusion/FBA/](https://code.pageuppeople.com/diffusion/FBA/)
 
 Read up on CQRS and use the above repository as a guide to make your conversion.
+
+
+[< Prev](../shopping3_5) | [Next >](../shopping5)

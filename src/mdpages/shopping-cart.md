@@ -22,3 +22,5 @@ The user can only use one coupon.
 
 Try to have at least 10 items available, some of similar types.
 Try to have a combination of percentage and flat ‘specials’
+
+[< Prev](../developers) | [Next >](../shopping2)

@@ -6,3 +6,5 @@ When an item has it’s quantity drop to zero, raise an event to a separate serv
 
 The new service does not have to be an API but it does have to be able to consume events. 
 The new service should communicate back to the API via an event as well. 
+
+[< Prev](../shopping5)

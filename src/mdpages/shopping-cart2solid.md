@@ -32,72 +32,24 @@ https://docs.google.com/document/d/1_VOsMvReqoc3WY5UWWzJWis898Xh2XjqI-81vkDr4qs/
 
 Depending on the item weight, there will be several brackets the weight falls into:
 
-  
-
- 
-
 Weight Bracket
-
- 
 
 Cost
 
- 
+0g - 75g: $3.50
 
-0g - 75g
+76g - 200g: $8
 
- 
+200g - 499g: $15
 
-$3.50
+500g - 999g: $22
 
- 
+1kg - 2.999kg: $35
 
-76g - 200g
+3kg - 8kg: $50
 
- 
-
-$8
-
- 
-
-200g - 499g
-
- 
-
-$15
-
- 
-
-500g - 999g
-
- 
-
-$22
-
- 
-
-1kg - 2.999kg
-
- 
-
-$35
-
- 
-
-3kg - 8kg
-
- 
-
-$50
-
- 
-
-8kg+
-
- 
-
-$50 + $5/kg over 8kg
-
-  
+8kg+: 50 + $5/kg over 8kg
 
 Calculate the shipping cost and add that to the total.
+
+[< Prev](../shopping) | [Next >](../shopping3)

@@ -23,19 +23,26 @@ export default class extends React.Component<IndexPageProps, {}> {
       <div>
         <h1>Hi Mentors!</h1>
         <p className="secondary-text-color">
-          Welcome to a site that takes the guess work out of helping Mentees grow.
+          A site that takes the guess work out of helping your pupils grow.
           <br /> 
-          To get started: begin with Shopping 1 below</p>
-        <ul>
-          <li><Link to="/shopping/">Shopping Cart</Link></li>
-          <li><Link to="/shopping2/">Shopping Cart v2: SOLID</Link></li>
-          <li><Link to="/TDD/">Intro to TDD</Link></li>
-          <li><Link to="/shopping3/">Shopping cart v3: REST</Link></li>
-          <li><Link to="/shopping3_5/">Shopping cart v3: Shiny front-end</Link></li>
-          <li><Link to="/shopping4/">Shopping cart v4: CQRS</Link></li>
-          <li><Link to="/shopping5/">Shopping cart v5: Distributed systems</Link></li>
-          <li><Link to="/shopping6/">Shopping cart v6: Eventing and DDD</Link></li>
-        </ul>
+          Sed vehicula commodo risus vel dignissim. Quisque tincidunt a est in eleifend. Aenean ultrices enim et erat lobortis, eget maximus nisi mollis. Phasellus sodales eget tortor at blandit. Nulla et eros finibus, eleifend eros vel, rutrum enim. Aenean aliquet eros quis tortor elementum mollis. Sed sit amet leo id nisi ornare aliquet.
+          <br/>
+          <br/>
+          Duis non fermentum metus, ac pellentesque ante. Integer non velit magna. Etiam eu convallis velit, ac laoreet nisl. Nunc non orci non leo ullamcorper posuere a ac est. Nullam dapibus enim et lacus varius, vel semper risus dignissim. Etiam pretium ante ac dui blandit consequat. Fusce consequat lacinia tortor id viverra. Vivamus tincidunt, ex sed dictum eleifend, ligula tortor aliquam mauris, ac ullamcorper magna est eu ante. Morbi ullamcorper, tellus eget ornare iaculis, purus mi facilisis ligula, ut hendrerit tortor lacus id dui. Donec ut libero mi. Phasellus egestas arcu quis erat vehicula varius. Duis bibendum egestas sapien, sit amet interdum nisl lobortis vel. In nec orci at enim iaculis convallis. Ut lacus mi, suscipit ac pellentesque eu, dictum molestie arcu.
+          </p>
+          <h2>Getting started</h2>
+          <h3>
+            <Link to="/developers/">Developers</Link>
+          </h3>
+          <h3>
+            <Link to="/developers/">Devops</Link>
+          </h3>
+          <h3>
+            <Link to="/developers/">Designers</Link>
+          </h3>
+          <h3>
+            <Link to="/developers/">UX/UI</Link>
+          </h3>
       </div>
     )
   }
