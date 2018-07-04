@@ -12,7 +12,7 @@ const Info = (props) => (
       <a target="blank" href="https://www.twitter.com/tothjoshuaj">
         <i className="fab fa-twitter fa-5 text-primary-color link-icon"></i>
       </a>
-      <a target="blank" href="https://github.com/JoshuaToth">
+      <a target="blank" href="https://github.com/JoshuaToth/SenpaiPathway">
         <i className="fab fa-github fa-5 text-primary-color link-icon"></i>
       </a>
           {/* <i id="sidebarCollapse" className="fas fa-bars fa-lg" onClick={x => props.toggle()}>
