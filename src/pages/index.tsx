@@ -33,7 +33,7 @@ export default class extends React.Component<IndexPageProps, {}> {
           <h2>Getting started</h2>
           <div className='container'>
             <div className='row'>
-              <div className='col-md-4'>
+              <div className='col-lg-4 col-md-6'>
                 <Link to="/developers/">
                   <img src={ require('../images/code-coding-computer-34676.jpg') } />
                   <h3>
@@ -41,7 +41,7 @@ export default class extends React.Component<IndexPageProps, {}> {
                   </h3>
                 </Link>
               </div>
-              <div className='col-md-4'>
+              <div className='col-lg-4 col-md-6'>
                 <Link to="/developers/">
                   <img src={ require('../images/bandwidth-close-up-computer-1148820.jpg') } />
                   <h3>
@@ -49,7 +49,7 @@ export default class extends React.Component<IndexPageProps, {}> {
                   </h3>
                 </Link>
               </div>
-              <div className='col-md-4'>
+              <div className='col-lg-4 col-md-6'>
                 <Link to="/developers/">
                   <img src={ require('../images/apple-computer-decor-326502.jpg') } />
                   <h3>
@@ -57,7 +57,7 @@ export default class extends React.Component<IndexPageProps, {}> {
                   </h3>
                 </Link>
               </div>
-              <div className='col-md-4'>
+              <div className='col-lg-4 col-md-6'>
                 <Link to="/developers/">
                   <img src={ require('../images/blur-cellphone-close-up-196644.jpg') } />
                   <h3>
