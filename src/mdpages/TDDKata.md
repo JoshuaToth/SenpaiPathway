@@ -9,3 +9,5 @@ Fairly good write up on Wikipedia.
 Read up on TDD and complete the bowling Kata with a TDD approach. 
 
 [http://codingdojo.org/kata/Bowling/](http://codingdojo.org/kata/Bowling/)
+
+[< Prev](../shopping2) | [Next >](../shopping3)

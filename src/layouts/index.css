@@ -78,3 +78,11 @@
         margin-left: 0;
     }
 }
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.profile {
+    text-align: center
+}

@@ -2,17 +2,12 @@
 path: "/shopping3"
 title: "Shopping Cart 3: REST"
 ---
-Using a combination of SOLID and TDD, create a .Net RESTful API using NancyFX
+Using a combination of SOLID and TDD, create a RESTful API using a framework of your choice.
 
-[http://nancyfx.org/](http://nancyfx.org/)
-
-A data store will also be required. The chosen database is up to you. Although a noSQL database is recommended. 
-
-It is recommended to use Postman to conduct all api queries, a frontend will not be required. (There can be a task to create a frontend for this after this task if you are interested)
-
-The API consist of all the features of the Shopping cart project we used in V2. Plus extensions. 
-
-It is recommended to have three layers.
+- A data store will also be required. This can be a local DB or something hosted like Firebase.
+- It is recommended to use [Postman](https://www.getpostman.com/) to conduct api queries, a frontend is not required. (There can be a task to create a frontend for this after this task if you are interested)
+- The API consist of all the features of the Shopping cart project we used in V2. Plus extensions. 
+- It is recommended to have three layers.
 
 Controller - Where API commands are received
 
@@ -36,4 +31,4 @@ The API can be queried to return all items along with their cost, weight and qua
 
 A list of all previous sales can be queried, Items, quantity and cost should be included.
 
-[< Prev](../shopping2) | [Next >](../shopping3_5)
+[< Prev](../TDD) | [Next >](../shopping3_5)
