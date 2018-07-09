@@ -1,5 +1,6 @@
 import * as React from 'react'
-import Link from 'gatsby-link'
+
+import { SectionTile } from '../components/section-tile';
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -33,38 +34,16 @@ export default class extends React.Component<IndexPageProps, {}> {
           <h2>Getting started</h2>
           <div className='container'>
             <div className='row'>
-              <div className='col-lg-4 col-md-6'>
-                <Link to="/developers/">
-                  <img src={ require('../images/code-coding-computer-34676.jpg') } />
-                  <h3>
-                    Developers
-                  </h3>
-                </Link>
-              </div>
-              <div className='col-lg-4 col-md-6'>
-                <Link to="/developers/">
-                  <img src={ require('../images/bandwidth-close-up-computer-1148820.jpg') } />
-                  <h3>
-                    Devops
-                  </h3>
-                </Link>
-              </div>
-              <div className='col-lg-4 col-md-6'>
-                <Link to="/developers/">
-                  <img src={ require('../images/apple-computer-decor-326502.jpg') } />
-                  <h3>
-                    Designers
-                  </h3>
-                </Link>
-              </div>
-              <div className='col-lg-4 col-md-6'>
-                <Link to="/developers/">
-                  <img src={ require('../images/blur-cellphone-close-up-196644.jpg') } />
-                  <h3>
-                    UX/UI
-                  </h3>
-                </Link>
-              </div>
+              <SectionTile link='/developers/' title='Developers' image={require('../images/code-coding-computer-34676.jpg')} />
+
+              <SectionTile link='/developers/' title='Devops'  image={require('../images/bandwidth-close-up-computer-1148820.jpg')} />
+
+              <SectionTile link='/developers/' title='Designers'  image={require('../images/apple-computer-decor-326502.jpg')} />
+
+              <SectionTile link='/developers/' title='UI/UX'  image={require('../images/blur-cellphone-close-up-196644.jpg')} />
+
+              <SectionTile link='/contributors/' title='Contributors'  image={require('../images/achievement-agreement-arms-1068523.jpg')} />
+
             </div>
           </div>
       </div>
