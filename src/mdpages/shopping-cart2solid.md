@@ -2,6 +2,26 @@
 path: "/shopping2"
 title: "Shopping Cart 2: S.O.L.I.D"
 ---
+## Intent
+This step is to introduce the first design principles to the problem. SOLID has been chosen as an approachable and somewhat widely practiced principle. 
+
+There are varying opinions on SOLID programming and concerns over it's validity in the programming community, if you have a different principle set you would like to include in this program, feel free to substitute it in this step while including the extension below.
+
+The below resources are not the end all to learning SOLID and if you have others that you would recommend instead/as well please do. (And shoot us a link to check it out too!) 
+
+This step should be a complete rewrite and not a refactor of the previous step. It is this way to encourage the pupil to approach the problem from a fresh perspective. 
+
+After the step is completed: 
+- Ask the pupil if they had any difficulties/why
+- Get the pupil to take you through their code and ask them to show it working. 
+- Compare their new code to their old code side-by-side and have a conversation on how they are different and if they are better/worse.
+- Give your pupil tips on how to improve their code further if there is room. 
+
+Notes.
+- The solution isn't really complex enough to justify every aspect of SOLID programming at this stage, so your pupils may struggle with finding a reason to use them. This is fine and if there isn't a good reason to use a certain attribute, don't. 
+
+## Problem:
+## S.O.L.I.D
 - Single Responsibility
 - Open/Closed
 - Liskov Substitution
@@ -14,7 +34,7 @@ title: "Shopping Cart 2: S.O.L.I.D"
 
 ## Task: 
 Read up on the SOLID design principles and then re-implement the console app shopping cart, with an extension.
-https://docs.google.com/document/d/1_VOsMvReqoc3WY5UWWzJWis898Xh2XjqI-81vkDr4qs/edit?usp=sharing
+
 ### Extension - Shipping cost. 
 Depending on the item weight, there will be several brackets the weight falls into:
 Weight Bracket: $Cost

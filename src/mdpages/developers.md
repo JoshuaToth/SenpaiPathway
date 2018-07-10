@@ -2,8 +2,26 @@
 path: "/developers"
 title: "Developers: The shopping cart problem."
 ---
-Duis viverra sem vel ultrices tempor. Fusce imperdiet placerat finibus. Sed ac risus vitae dui malesuada venenatis. Morbi augue ligula, mattis sed arcu vitae, molestie lacinia nisi. Vivamus in est porta, sollicitudin enim sed, tincidunt lorem. Curabitur et pretium massa, ac posuere ante. Cras a neque est.
+This program came about when trying to find a solution to work towards that started off easy enough but quickly ramps up in complexity. We landed on a custom program which is loosely defined enough to allow for some freedom in the end solution. The solution is intentionally left feeling incomplete until later steps. This is to encourage new methods to be applied rather than just refactoring. 
 
-In ac nulla sed ante efficitur tristique. Mauris sit amet eros eget nibh sodales pulvinar. Phasellus auctor magna at mattis molestie. Fusce vestibulum massa sit amet neque mattis rhoncus. Donec bibendum, enim convallis interdum tristique, tellus magna imperdiet risus, ut consequat lorem orci eget tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus metus mauris, feugiat quis vehicula sit amet, fringilla eu tellus. Morbi gravida massa at mi varius mattis. In ultrices facilisis sem id tempor. Etiam volutpat nisl ipsum, sit amet efficitur elit feugiat in. Nulla in tristique leo, sit amet rutrum ex. Nullam non laoreet metus. In nec nisl sit amet arcu efficitur congue id id diam. In cursus accumsan tortor, eu congue est convallis vitae. Duis ut neque in erat lobortis euismod.
+The program currently consists of about 8 ish steps. Each step after the first including an assessment and reflection between pupil and mentor. Each step will be accompanied by an intent and expectation that you, the mentor should be aware of before handing out the step and during the reflection period.
 
-## [The Shopping Cart Problem](../shopping)
+It is highly recommended to attempt the entire solution yourself, although that is up to you.
+
+Freedom of technology is encouraged. When originally writing this solution it was for .Net but the problem can be applied to multiple languages and paradigms. Whatever suits you. 
+
+In order to keep your pupils focused, it's recommended to send a copy of the problem statement (and to tailor it if needed) to them, rather than a link to this site. This avoids them reading too much into the mentor notes. 
+
+Pairing is allowed and some pupils may require it.
+
+## [> The Shopping Cart Problem: Begin <](../shopping)
+
+Step index:
+- [Shopping Cart](../shopping)
+- [Shopping Cart 2: S.O.L.I.D](../shopping2)
+- [Test Driven Development: Kata](../TDD)
+- [Shopping Cart 3: REST](../shopping3)
+- [Shopping Cart 3.5: REST + JS](../shopping3_5)
+- [Shopping Cart 4: CQRS](../shopping4)
+- [Shopping Cart 5: Distributed](../shopping5)
+- [Shopping Cart 6: Eventing](../shopping6)
