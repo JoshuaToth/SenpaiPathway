@@ -8,12 +8,12 @@ const Info = () => (
   <div className="container">
     <div className="info row text-primary-color">
       <div className="col-md-12">
-      <a target="blank" href="https://www.twitter.com/tothjoshuaj">
-        <i className="fab fa-twitter fa-5 text-primary-color link-icon"></i>
-      </a>
-      <a target="blank" href="https://github.com/JoshuaToth/SenpaiPathway">
-        <i className="fab fa-github fa-5 text-primary-color link-icon"></i>
-      </a>
+        <a target="blank" href="https://www.twitter.com/tothjoshuaj">
+          <i className="fab fa-twitter fa-5 text-primary-color link-icon" />
+        </a>
+        <a target="blank" href="https://github.com/JoshuaToth/SenpaiPathway">
+          <i className="fab fa-github fa-5 text-primary-color link-icon" />
+        </a>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ const Header = () => (
       </div>
     </div>
   </div>
-);
+)
 
 interface DefaultLayoutProps extends React.HTMLProps<HTMLDivElement> {
   location: {
@@ -52,16 +52,31 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
         <main role="main">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 ">
-                {this.props.children()}
-              </div>
+              <div className="col-md-12 ">{this.props.children()}</div>
             </div>
           </div>
         </main>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossOrigin="anonymous"></link>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossOrigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossOrigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossOrigin="anonymous"></script>
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossOrigin="anonymous"
+        />
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossOrigin="anonymous"
+        />
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossOrigin="anonymous"
+        />
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+          integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+          crossOrigin="anonymous"
+        />
       </div>
     )
   }

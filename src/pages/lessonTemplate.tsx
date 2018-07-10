@@ -1,26 +1,24 @@
 import * as React from 'react'
 
-export default function Template({
-  data} : {data:any}
-) {
-  const { markdownRemark } = data;
+export default function Template({ data }: { data: any }) {
+  const { markdownRemark } = data
   if (!markdownRemark) {
-    console.log(data);
-    return(<div className="template"></div>); // For whatever reason gatsbyJS will load THIS file as a template too. zzz
+    console.log(data)
+    return <div className="template" /> // For whatever reason gatsbyJS will load THIS file as a template too. zzz
   }
 
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html } = markdownRemark
   return (
     <div className="lesson-post-container">
       <div className="lesson-post">
-        <h1 className="primary-text-color" >{frontmatter.title}</h1>
+        <h1 className="primary-text-color">{frontmatter.title}</h1>
         <div
           className="lesson-post-content primary-text-color"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
     </div>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -33,4 +31,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
