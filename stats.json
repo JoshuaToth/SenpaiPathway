@@ -1,0 +1,94 @@
+{
+  "assetsByChunkName": {
+    "component---src-layouts-index-tsx": [
+      "component---src-layouts-index-tsx-b137a782e8b7d7184dfb.js",
+      "component---src-layouts-index-tsx-b137a782e8b7d7184dfb.js.map"
+    ],
+    "path---shopping-3-5": [
+      "path---shopping-3-5-b049189b582e12ae7fea.js",
+      "path---shopping-3-5-b049189b582e12ae7fea.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-lesson-template-tsx": [
+      "component---src-pages-lesson-template-tsx-9deb6f40e85bb5012769.js",
+      "component---src-pages-lesson-template-tsx-9deb6f40e85bb5012769.js.map"
+    ],
+    "path---shopping-2": [
+      "path---shopping-2-8d6590c52a3fc40b161a.js",
+      "path---shopping-2-8d6590c52a3fc40b161a.js.map"
+    ],
+    "path---shopping-4": [
+      "path---shopping-4-6eb5627dc9b14b086824.js",
+      "path---shopping-4-6eb5627dc9b14b086824.js.map"
+    ],
+    "path---shopping-5": [
+      "path---shopping-5-68ab60c391356e86d485.js",
+      "path---shopping-5-68ab60c391356e86d485.js.map"
+    ],
+    "path---shopping-3": [
+      "path---shopping-3-e6ca94b9e50497b3b281.js",
+      "path---shopping-3-e6ca94b9e50497b3b281.js.map"
+    ],
+    "path---index": [
+      "path---index-c2ea69a765439ae7d0fa.js",
+      "path---index-c2ea69a765439ae7d0fa.js.map"
+    ],
+    "commons": [
+      "commons-4e98a79f4e3f58fbd9e0.js",
+      "commons-4e98a79f4e3f58fbd9e0.js.map"
+    ],
+    "component---src-pages-404-tsx": [
+      "component---src-pages-404-tsx-c3f1179ef31e3033d235.js",
+      "component---src-pages-404-tsx-c3f1179ef31e3033d235.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tdd": [
+      "path---tdd-37022ffa66cc3ec9f8e4.js",
+      "path---tdd-37022ffa66cc3ec9f8e4.js.map"
+    ],
+    "path---shopping-6": [
+      "path---shopping-6-0b05d23ba43ef645aefa.js",
+      "path---shopping-6-0b05d23ba43ef645aefa.js.map"
+    ],
+    "component---src-pages-contributors-tsx": [
+      "component---src-pages-contributors-tsx-0480f436c80ea1c9cfca.js",
+      "component---src-pages-contributors-tsx-0480f436c80ea1c9cfca.js.map"
+    ],
+    "path---lesson-template": [
+      "path---lesson-template-1a56098c3a7c27889f93.js",
+      "path---lesson-template-1a56098c3a7c27889f93.js.map"
+    ],
+    "path---developers": [
+      "path---developers-e4b30c15c07126a54e8c.js",
+      "path---developers-e4b30c15c07126a54e8c.js.map"
+    ],
+    "component---src-pages-index-tsx": [
+      "component---src-pages-index-tsx-686c3a441a6d6198b20e.js",
+      "component---src-pages-index-tsx-686c3a441a6d6198b20e.js.map"
+    ],
+    "path---shopping": [
+      "path---shopping-5295829261ec78a66256.js",
+      "path---shopping-5295829261ec78a66256.js.map"
+    ],
+    "app": [
+      "app-0e21cf92cbeb352cb3c9.js",
+      "build-js-styles.css",
+      "app-0e21cf92cbeb352cb3c9.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---contributors": [
+      "path---contributors-c2ea69a765439ae7d0fa.js",
+      "path---contributors-c2ea69a765439ae7d0fa.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
