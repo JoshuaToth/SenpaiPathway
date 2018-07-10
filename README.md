@@ -2,7 +2,6 @@
 To get started: 
 ```
 git clone git@github.com:JoshuaToth/SenpaiPathway.git
-npm i -g gatsby
 yarn install
 npm run develop
 

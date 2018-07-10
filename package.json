@@ -21,12 +21,12 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "npx gatsby build",
+    "develop": "npx gatsby develop",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "preDeploy": "npx gatsby build --prefix-paths",
+    "deploy": "npx gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.6",
