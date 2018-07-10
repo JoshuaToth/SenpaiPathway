@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { Contributor } from '../components/contributor';
 
-// Please note that you can use https://github.com/dotansimha/graphql-code-generator
-// to generate all types from graphQL schema
 interface ContributorsPageProps {
   data: {
     site: {

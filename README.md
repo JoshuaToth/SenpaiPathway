@@ -5,6 +5,8 @@ git clone git@github.com:JoshuaToth/SenpaiPathway.git
 npm i -g gatsby
 yarn install
 npm run develop
+
+Navigate to: http://Localhost:8000
 ```
 To Publish:
 ```

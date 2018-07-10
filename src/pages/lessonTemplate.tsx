@@ -1,9 +1,9 @@
 import * as React from 'react'
 
 export default function Template({
-  data} : {data:any} // this prop will be injected by the GraphQL query below.
+  data} : {data:any}
 ) {
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
+  const { markdownRemark } = data;
   if (!markdownRemark) {
     console.log(data);
     return(<div className="template"></div>); // For whatever reason gatsbyJS will load THIS file as a template too. zzz
