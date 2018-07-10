@@ -12,7 +12,8 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typescript": "^1.4.10",
     "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.42"
+    "gatsby-transformer-remark": "^1.7.42",
+    "gh-pages": "^1.2.0"
   },
   "keywords": [
     "gatsby, typescript"
@@ -25,7 +26,7 @@
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 0",
     "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "npm run preDeploy && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.6",

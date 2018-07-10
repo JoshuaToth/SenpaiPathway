@@ -15,4 +15,5 @@ module.exports = {
     },
     `gatsby-transformer-remark`
   ],
+  pathPrefix: "/SenpaiPathway"
 }
