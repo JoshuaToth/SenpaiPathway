@@ -8,8 +8,8 @@ Being able to conduct TDD is one of the key skills developers need these days. I
 Rather than reinvent the wheel This step is just to complete one or more katas from codingdojo.org. This is fairly quick step and TDD will be applied in the next step. 
 
 After the step is completed: 
-- Ask the pupil if they had any difficulties/why
-- Get the pupil to take you through their code and ask them to show it working. 
+- Ask the mentee if they had any difficulties/why
+- Get the mentee to take you through their code and ask them to show it working. 
 
 ## Program
 

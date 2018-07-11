@@ -6,7 +6,7 @@ title: "Shopping Cart 3.5: REST + JS"
 This is the first optional step. Frontend isn't for everyone and developers can get away without it for the most part if the REALLY want to. 
 That being said, this step is still recommended. 
 
-It is a fairly free step with most of the onus on the pupil to take this as far as they want. From creating a simple form to a full web application.
+It is a fairly free step with most of the onus on the mentee to take this as far as they want. From creating a simple form to a full web application.
 
 Your job as a mentor is to give them guidance on the tools and frameworks for them to use. Try and pick something that is established but not too old, as of 2018 Angular 3? and React are the hot topics. 
 

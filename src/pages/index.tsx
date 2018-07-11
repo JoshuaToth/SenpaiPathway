@@ -20,10 +20,10 @@ export default class extends React.Component<IndexPageProps, {}> {
     return (
       <div>
         <h1>Welcome</h1>
-        <div className="secondary-text-color">
+        <div className="primary-text-color">
           <div>
             How often have you had this frustrating conversation with your
-            pupils?
+            mentees?
           </div>
           <br />
           <div>
@@ -38,11 +38,11 @@ export default class extends React.Component<IndexPageProps, {}> {
             later on or a task to complete before the next meeting that you
             found 5 minutes beforehand in a quick google search of: 'x framework
             tutorial'. Both new and old mentors have the same issues with
-            deciding on how to approach a pupils study.
+            deciding on how to approach a mentees study.
           </div>
           <br />
           <div>
-            To solve this we've come together to provide you and your pupil free
+            To solve this we've come together to provide you and your mentee free
             programs that provide both a problem for you both to work through
             and instruction on what you as a mentor should come to expect from
             each step.
@@ -50,7 +50,7 @@ export default class extends React.Component<IndexPageProps, {}> {
           <br />
           <div>
             For now we only have a section for developers but if you think this
-            style of course is applicable to your profession, please reach out.
+            style of course is applicable to your profession or discipline, please reach out.
           </div>
         </div>
         <br />

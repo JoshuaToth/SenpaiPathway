@@ -9,18 +9,18 @@ There are varying opinions on SOLID programming and concerns over it's validity 
 
 The below resources are not the end all to learning SOLID and if you have others that you would recommend instead/as well please do. (And shoot us a link to check it out too!) 
 
-This step should be a complete rewrite and not a refactor of the previous step. It is this way to encourage the pupil to approach the problem from a fresh perspective. 
+This step should be a complete rewrite and not a refactor of the previous step. It is this way to encourage the mentee to approach the problem from a fresh perspective. 
 
 The extension is used to add another layer of pricing and to prompt the user to not simply refactor their previous code. 
 
 After the step is completed: 
-- Ask the pupil if they had any difficulties/why
-- Get the pupil to take you through their code and ask them to show it working. 
+- Ask the mentee if they had any difficulties/why
+- Get the mentee to take you through their code and ask them to show it working. 
 - Compare their new code to their old code side-by-side and have a conversation on how they are different and if they are better/worse.
-- Give your pupil tips on how to improve their code further if there is room. 
+- Give your mentee tips on how to improve their code further if there is room. 
 
 Notes.
-- The solution isn't really complex enough to justify every aspect of SOLID programming at this stage, so your pupils may struggle with finding a reason to use them. This is fine and if there isn't a good reason to use a certain attribute, don't. 
+- The solution isn't really complex enough to justify every aspect of SOLID programming at this stage, so your mentees may struggle with finding a reason to use them. This is fine and if there isn't a good reason to use a certain attribute, don't. 
 
 ## Problem:
 ## S.O.L.I.D

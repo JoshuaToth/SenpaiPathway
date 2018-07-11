@@ -7,11 +7,11 @@ This step is to start taking the previously learned methods and then applying th
 
 It's always daunting to approach a totally different type of application and with API's being the centre of web development it's a good starting point and quite often a goal of newer developers who've not had a chance to create one from scratch.
 
-The reason behind choosing a REST api rather than something like HATEOS is down to popularity and familiarity. If you feel a different type of API would suit your pupil better, point them to the information needed and include the problem statement below. 
+The reason behind choosing a REST api rather than something like HATEOS is down to popularity and familiarity. If you feel a different type of API would suit your mentee better, point them to the information needed and include the problem statement below. 
 
-This is a fairly large step, including data persistence and another rewrite of the original shopping cart problem. It's expected this might take a bit of time and possibly multiple iterations. Pairing is recommended. This will also be the first problem where TDD is used from the beginning, so the pupil may be unsure of where to start. We suggest starting at the Service Layer with a 'mock' Repository layer. 
+This is a fairly large step, including data persistence and another rewrite of the original shopping cart problem. It's expected this might take a bit of time and possibly multiple iterations. Pairing is recommended. This will also be the first problem where TDD is used from the beginning, so the mentee may be unsure of where to start. We suggest starting at the Service Layer with a 'mock' Repository layer. 
 
-It's recommended to have your pupil plan out the entire solution before attempting any code. This can be a paired activity as well, but try and let them attempt a solution plan themselves and then iterate on it with them. 
+It's recommended to have your mentee plan out the entire solution before attempting any code. This can be a paired activity as well, but try and let them attempt a solution plan themselves and then iterate on it with them. 
 
 There isn't a large focus on the data store part of the problem, so feel free to choose whichever one you want. Firebase is recommended without having to work out hosting and the packages available are fairly straightforward.
 
