@@ -8,7 +8,7 @@ The program currently consists of about 8 ish steps. Each step after the first i
 
 It is highly recommended to attempt the entire solution yourself, although that is up to you.
 
-Freedom of technology is encouraged. When originally writing this solution it was for .Net but the problem can be applied to multiple languages and paradigms. Whatever suits you. 
+Freedom of technology is encouraged. When originally writing this solution it was for .Net but the problem can be applied to multiple languages and paradigms. Whatever suits you.
 
 In order to keep your pupils focused, it's recommended to send a copy of the problem statement (and to tailor it if needed) to them, rather than a link to this site. This avoids them reading too much into the mentor notes. 
 
