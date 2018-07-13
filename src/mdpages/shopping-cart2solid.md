@@ -11,7 +11,7 @@ The below resources are not the end all to learning SOLID and if you have others
 
 This step should be a complete rewrite and not a refactor of the previous step. It is this way to encourage the mentee to approach the problem from a fresh perspective. 
 
-The extension is used to add another layer of pricing and to prompt the user to not simply refactor their previous code. 
+The extension is used to add another layer of pricing and to prompt the mentee to not simply refactor their previous code. 
 
 After the step is completed: 
 - Ask the mentee if they had any difficulties/why

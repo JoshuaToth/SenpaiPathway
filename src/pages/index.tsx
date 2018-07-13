@@ -27,7 +27,7 @@ export default class extends React.Component<IndexPageProps, {}> {
           </div>
           <br />
           <div>
-            Q: "what would you like to learn about? What are your interests? How
+            Q: "What would you like to learn about? What are your interests? How
             would you like me to help you grow?"
           </div>
           <div>A: "I dunno, I want you to help me be better at my job"</div>

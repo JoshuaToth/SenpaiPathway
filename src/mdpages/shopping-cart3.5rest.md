@@ -10,7 +10,7 @@ It is a fairly free step with most of the onus on the mentee to take this as far
 
 Your job as a mentor is to give them guidance on the tools and frameworks for them to use. Try and pick something that is established but not too old, as of 2018 Angular 3? and React are the hot topics. 
 
-Something that a lot of developers struggle with is the actual design of the UI. An iterative approach is recommended here and the style will develop over time. If the user is very keen on this aspect however, encourage them to sketch out low fidelity designs before attempting to code.
+Something that a lot of developers struggle with is the actual design of the UI. An iterative approach is recommended here and the style will develop over time. If the mentee is very keen on this aspect however, encourage them to sketch out low fidelity designs before attempting to code.
 
 ## Problem
 Create a rich frontend that will communicate with the REST api you created in the previous step.
