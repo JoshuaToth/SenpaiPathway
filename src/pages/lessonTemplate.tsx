@@ -2,10 +2,12 @@ import * as React from 'react'
 
 class Disqus extends React.Component<null, null> {
   disqus_config = function () {
-      let d = document, s = d.createElement('script');
-      s.src = 'https://senpaipathway.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', new Date().toUTCString());
-      (d.head || d.body).appendChild(s);
+      if (typeof document !== "undefined") {
+        let d = document, s = d.createElement('script');
+        s.src = 'https://senpaipathway.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date().toUTCString());
+        (d.head || d.body).appendChild(s);
+      }
 
   };
 

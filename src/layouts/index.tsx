@@ -1,5 +1,6 @@
-import * as React from 'react'
-import Link from 'gatsby-link'
+import * as React from 'react';
+import Link from 'gatsby-link';
+import {Helmet} from "react-helmet";
 
 import './index.css'
 import './bootstrap.min.css'
@@ -46,6 +47,9 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
   public render() {
     return (
       <div>
+        <Helmet>
+          <link rel="icon" href={`${require('../images/icon.png')}`} />
+        </Helmet>
         <header role="banner">
           <Header />
         </header>
