@@ -37,20 +37,21 @@ export default class extends React.Component<IndexPageProps, {}> {
             unstructured catch-ups with a some talks about a pairing session
             later on or a task to complete before the next meeting that you
             found 5 minutes beforehand in a quick google search of: 'x framework
-            tutorial'. Both new and old mentors have the same issues with
-            deciding on how to approach a mentees study.
+            tutorial'. This can leave mentors feeling both overwhelemed and
+            unqualified.
           </div>
-          <br />
           <div>
-            To solve this we've come together to provide you and your mentee free
-            programs that provide both a problem for you both to work through
-            and instruction on what you as a mentor should come to expect from
-            each step.
+            Both new and old mentors have the same issues with deciding on how
+            to approach a mentees study. To solve this we've come together to
+            provide you and your mentee(s) free programs that provide both a
+            problem for you both to work through and instruction on what you as
+            a mentor should come to expect from each step.
           </div>
           <br />
           <div>
             For now we only have a section for developers but if you think this
-            style of course is applicable to your profession or discipline, please reach out.
+            style of course is applicable to your profession or discipline,
+            please reach out.
           </div>
         </div>
         <br />

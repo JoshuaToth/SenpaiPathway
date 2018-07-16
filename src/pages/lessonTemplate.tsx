@@ -1,26 +1,31 @@
 import * as React from 'react'
 
 class Disqus extends React.Component<null, null> {
-  disqus_config = function () {
-      if (typeof document !== "undefined") {
-        let d = document, s = d.createElement('script');
-        s.src = 'https://senpaipathway.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', new Date().toUTCString());
-        (d.head || d.body).appendChild(s);
-      }
-
-  };
+  disqus_config = function() {
+    if (typeof document !== 'undefined') {
+      let d = document,
+        s = d.createElement('script')
+      s.src = 'https://senpaipathway.disqus.com/embed.js'
+      s.setAttribute('data-timestamp', new Date().toUTCString())
+      ;(d.head || d.body).appendChild(s)
+    }
+  }
 
   render() {
-      this.disqus_config();
-      return (
-          <div className='disqus'>
-            <div id='disqus_thread'></div>
-            <noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>                
-          </div>
-      );
+    this.disqus_config()
+    return (
+      <div className="disqus">
+        <div id="disqus_thread" />
+        <noscript>
+          Please enable JavaScript to view the{' '}
+          <a href="https://disqus.com/?ref_noscript">
+            comments powered by Disqus.
+          </a>
+        </noscript>
+      </div>
+    )
   }
-};
+}
 
 export default function Template({ data }: { data: any }) {
   const { markdownRemark } = data
